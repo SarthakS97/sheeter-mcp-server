@@ -1,0 +1,24 @@
+{
+  "name": "sheeter-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for Sheeter API",
+  "type": "module",
+  "module": "src/index.ts",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.3",
+    "zod": "^3.25.46"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "keywords": ["mcp", "google-sheets", "api"],
+  "author": "Your Name",
+  "license": "MIT"
+}
